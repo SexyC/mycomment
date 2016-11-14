@@ -1,8 +1,10 @@
 # Mycomment
 
+My work is to convert the mappings to other keys, not to conflict with cscope mappings
+
 _A stupid comment plugin made for people can't remember so many mappings:)_
 
-You only need to remember one mapping for comment:  `<leader>c`
+You only need to remember one mapping for comment:  `<leader>x`
 
 ## Install
 
@@ -10,15 +12,15 @@ Use your favourite plugin manager add something like `Bundle 'chemzqm/mycomment.
 
 ## API
 
-### [count]\<leader\>cc
+### [count]\<leader\>xc
 
 Toggle comment of `count`(default current line) lines.
 
-### \<leader\>cip
+### \<leader\>xip
 
 Toggle comment of a block. Yes, it's a motion mapping, `ip` could be any motion object.
 
-### V\*\*\*\<leader\>c
+### V\*\*\*\<leader\>x
 
 Select a block and toggle comment
 

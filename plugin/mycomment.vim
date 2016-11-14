@@ -12,9 +12,9 @@ let g:comment_loaded = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-vnoremap <silent> <leader>c :call <SID>CommentFromSelected(visualmode(), 1)<cr>
-nnoremap <silent> <leader>c :set operatorfunc=<SID>CommentFromSelected<cr>g@
-nnoremap <silent> <leader>cc :<C-U>set opfunc=<SID>CommentFromSelected<Bar>exe 'norm! 'v:count1.'g@_'<CR>
+vnoremap <silent> <leader>x :call <SID>CommentFromSelected(visualmode(), 1)<cr>
+nnoremap <silent> <leader>x :set operatorfunc=<SID>CommentFromSelected<cr>g@
+nnoremap <silent> <leader>xc :<C-U>set opfunc=<SID>CommentFromSelected<Bar>exe 'norm! 'v:count1.'g@_'<CR>
 
 let s:xmls = ['html', 'xhtml', 'xml']
 
