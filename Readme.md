@@ -4,7 +4,7 @@ My work is to convert the mappings to other keys, not to conflict with cscope ma
 
 _A stupid comment plugin made for people can't remember so many mappings:)_
 
-You only need to remember one mapping for comment:  `<leader>x`
+You only need to remember one mapping for comment:  `<C-l>c`
 
 ## Install
 

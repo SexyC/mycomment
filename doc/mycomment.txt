@@ -67,7 +67,7 @@ Install with your favorite plugin managers like NeoBundle/Plugin/Plug
 ==============================================================================
 INTERFACE				*mycomment-interface*
 
-Mycomment use `<leader>x` and `<leader>xc` to toggle comment, change the
+Mycomment use `<C-l>c` and `<C-l>cc` to toggle comment, change the
 source code if you don't like them:)
 
 Note: mycomment always use the last line to check whether to comment the
@@ -76,12 +76,12 @@ lines or not, most of the times this works fine.
 ------------------------------------------------------------------------------
 MAPPINGS 				*mycomment-mappings*
 
-[count]<leader>xc	Toggle [count] lines, if omit the count, current line
+[count]<C-l>cc	Toggle [count] lines, if omit the count, current line
 			is used
 
-<leader>x{motion}	Toggle comment by {motion} object
+<C-l>c{motion}	Toggle comment by {motion} object
 
-v_<leader>x		You can use visual select and press <leader>c to
+v_<C-l>c		You can use visual select and press <C-l>c to
 			toggle comment of selected lines
 
 ==============================================================================
